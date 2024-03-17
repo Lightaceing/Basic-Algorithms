@@ -1,0 +1,1 @@
+void displayArray(int arr[], int n);
