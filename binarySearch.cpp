@@ -1,4 +1,5 @@
 #include<iostream>
+#include "binarySearch.h"
 
 void displayArray(int arr[], int n)
 {
@@ -69,12 +70,12 @@ int binarySearchRc(int arr[], int left, int right, int target)//log2(n) search
 }
 
 
-int main(void)
-{
-    int arr[] = {2, 3, 5, 7, 9};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    displayArray(arr, n);
-    //linearSearch(arr, n, 82);
-    std::cout << binarySearchIt(arr, n, 1);
-    return EXIT_SUCCESS;
-}
+// int main(void)
+// {
+//     int arr[] = {2, 3, 5, 7, 9};
+//     int n = sizeof(arr)/sizeof(arr[0]);
+//     displayArray(arr, n);
+//     //linearSearch(arr, n, 82);
+//     std::cout << binarySearchIt(arr, n, 1);
+//     return EXIT_SUCCESS;
+// }

@@ -1,14 +1,7 @@
 #include<iostream>
 #include<algorithm>
+#include "binarySearch.h"
 
-void displayArray(int arr[], int n)
-{
-    for(auto i=0;i<n;i++)
-    {
-        std::cout << arr[i] << " ";
-    }
-    std::cout << "\n";
-}
 
 /*
 returns true if value exists else returns false
